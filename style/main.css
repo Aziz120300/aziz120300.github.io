@@ -1,0 +1,65 @@
+/* install fonts */
+@font-face {
+    font-family: abrilFat;
+    src: url('../fonts/AbrilFatface-Regular.ttf');
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 70%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.header {
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(to bottom, rgb(32, 9, 88), rgb(8, 79, 84));
+    height: 550px;
+
+}
+
+.header .logo {
+    font-size: 32px;
+    float: left;
+    font-family: abrilFat;
+    color: #fff;
+}
+
+.header .navigation {
+    float: right;
+    margin-top: 40px;
+    font-family: Open sans-serif;
+}
+
+.header .navigation li {
+    float: right;
+    margin-left: 20px;
+    font-size: 18px;
+    display: block;
+}
+
+.header .navigation li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header .navigation li a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.icon-kelas {
+    width: 400px;
+    height: 400px;
+    background-image: url('../Images/martin-katler-TAFRnx96c5g-unsplash.jpg');
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.parent {
+    margin-top: 100px;
+}
